@@ -12,6 +12,8 @@ csv whith fields
 - PlaceOfCase
 - PicUrl
 - PicBase64
+- AdditionalPicUrl
+- AdditionalPicBase64
 - DateOfBirth
 - PlaceOfBirth
 - Hair
