@@ -29,3 +29,10 @@ csv whith fields
 - Field Office
 - Related Case
 - Source
+
+# Running
+Download package.
+
+Go to cmd/ directory and run
+`go get`
+`go build`
