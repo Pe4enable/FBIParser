@@ -21,7 +21,7 @@ func main() {
 	if data, err := loadCacheFile(cacheFileName); err == nil {
 		urlList = strings.Split(data, "\n")
 	} else {
-		urlList, err := getEntryURLs(*DataURL)
+		urlList, err = getEntryURLs(*DataURL)
 		if err == nil {
 			output := strings.Join(urlList, "\n")
 			saveCacheFile(cacheFileName, output)
