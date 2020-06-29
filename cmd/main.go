@@ -15,6 +15,7 @@ var (
 
 func main() {
 	fmt.Println("Go!")
+	flag.Parse()
 
 	var urlList []string
 	cacheFileName := fmt.Sprintf("%s/%s", *CacheDir, "urllist.txt")
