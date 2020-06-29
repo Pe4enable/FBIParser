@@ -266,7 +266,7 @@ func generateCSV(fname string, list []map[string]string) {
 	// "AdditionalPicBase64", "DateOfBirth", "PlaceOfBirth", "Hair", "Eyes", "Height", "Weight", "Sex", "Race", "Nationality", "Reward",
 	// "Remarks", "Details", "FieldOffice", "RelatedCase", "Source"}
 	//for site
-	csvFieldList := []string{"Id","Name","Sex","DateOfBirth","PlaceOfBirth","Nationality","PlaceOfCase","DateOfCase","Remarks","Height","Hair","Eyes","Source"}
+	csvFieldList := []string{"Id","Name","Sex","DateOfBirth","PlaceOfBirth","Nationality","PlaceOfCase","DateOfCase","Details","Height","Hair","Eyes","Source"}
 	csvWriter.Write(csvFieldList)
 
 	for _, e := range list {
