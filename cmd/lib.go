@@ -262,6 +262,7 @@ func generateCSV(fname string, list []map[string]string) {
 	defer fOut.Close()
 
 	csvFieldList := []string{"Id", "Name", "DateOfCase", "PlaceOfCase", "PicUrl", "PicBase64", "AdditionalPicUrl", "AdditionalPicBase64", "DateOfBirth", "PlaceOfBirth", "Hair", "Eyes", "Height", "Weight", "Sex", "Race", "Nationality", "Reward", "Remarks", "Details", "FieldOffice", "RelatedCase", "Source"}
+	csvWriter.Write(csvFieldList)
 
 	for _, e := range list {
 		output := []string{}
